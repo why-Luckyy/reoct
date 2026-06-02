@@ -1,0 +1,22 @@
+{
+  "name": "ai-cli-client",
+  "version": "1.0.0",
+  "description": "Global npm CLI client for creating projects from natural language prompts using AI",
+  "main": "index.js",
+  "bin": {
+    "mycli": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "node-fetch": "^2.7.0",
+    "prettier": "^3.2.5",
+    "yargs": "^17.7.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "private": true
+}
