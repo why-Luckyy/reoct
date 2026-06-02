@@ -1,5 +1,5 @@
 {
-  "name": "ai-cli-client",
+  "name": "reoctexpres",
   "version": "1.0.0",
   "description": "Global npm CLI client for creating projects from natural language prompts using AI",
   "main": "index.js",
@@ -17,6 +17,5 @@
   },
   "engines": {
     "node": ">=18.0.0"
-  },
-  "private": true
+  }
 }
